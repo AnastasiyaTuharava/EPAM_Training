@@ -1,5 +1,5 @@
 
-package task0101;
+package pkg0101;
 
 import java.util.Scanner;
 
