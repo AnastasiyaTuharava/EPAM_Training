@@ -1,5 +1,5 @@
 
-package task0101;
+package pkg0101;
 
 public class Output {
     public static void print (String str, double d) {
