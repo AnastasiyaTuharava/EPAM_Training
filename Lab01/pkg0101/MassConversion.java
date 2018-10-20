@@ -2,13 +2,17 @@
 package pkg0101;
 
 public class MassConversion {
+    private static final int grInKg = 1000;
+    private static final int mgInKg = 1000000;
+    private static final int tnInKg = 1000;
+    
     public static double ConvertToGrams (double a) {
-        return a*1000;
+        return a*grInKg;
     }
     public static double ConvertToMilligrams (double a) {
-        return a*1000000;
+        return a*mgInKg;
     }
     public static double ConvertToTons (double a) {
-        return a/1000;
+        return a/tnInKg;
     }
 }
