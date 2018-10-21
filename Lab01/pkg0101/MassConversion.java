@@ -4,7 +4,7 @@ package pkg0101;
 public class MassConversion {
     private static final int grInKg = 1000;
     private static final int mgInKg = 1000000;
-    private static final int tnInKg = 1000;
+    private static final int kgInTn = 1000;
     
     public static double ConvertToGrams (double a) {
         return a*grInKg;
@@ -13,6 +13,6 @@ public class MassConversion {
         return a*mgInKg;
     }
     public static double ConvertToTons (double a) {
-        return a/tnInKg;
+        return a/kgInTn;
     }
 }
