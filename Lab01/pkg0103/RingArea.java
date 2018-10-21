@@ -1,14 +1,14 @@
 
 package pkg0103;
 
+import java.lang.Math;
+
 public class RingArea {
     
-    public static double RingArea (double r1, double r2) {
-        double pi = 3.14;
+    public static double calcRingArea (double r1, double r2) {
         
-        double s = pi * (r1 * r1 - r2 * r2);
-        
-        return s;
-    }
-    
+        double ringArea = Math.PI * (r1*r1 - r2*r2);
+                
+        return ringArea;
+    } 
 }
