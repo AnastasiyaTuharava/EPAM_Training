@@ -10,6 +10,7 @@ public class CountDragonHeadsAndEyes {
     private static final int YEARS_BETWEEN_200_AND_300 = 300-200;
     private static final int YEARS_BEFORE_200 = 199;
     private static final int HEADS_AT_BIRTH = 3;
+    private static final int EYES_ON_EACH_HEAD = 2;
     
     public static int getHeads (int dragonAge) {
         if (dragonAge >= 300) {
@@ -27,8 +28,6 @@ public class CountDragonHeadsAndEyes {
         }
         return dragonHeads;
     }  
-    
-    private static final int EYES_ON_EACH_HEAD = 2;
     
     public static int getEyes (int dragonHeads) {
         
