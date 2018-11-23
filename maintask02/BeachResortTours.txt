@@ -1,0 +1,2 @@
+Chaika,Hotel,NoFood,Sea1,The best relax,Bus,15,600
+Frederica,Hostel,Breakfast,Sea2,The best and cheap relax,Plane,12,400
